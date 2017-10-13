@@ -15,6 +15,8 @@
 		300332701F8F46B500CE32BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3003326F1F8F46B500CE32BD /* main.m */; };
 		3003327A1F8F46B500CE32BD /* UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300332791F8F46B500CE32BD /* UICollectionViewTests.m */; };
 		300332851F8F46B500CE32BD /* UICollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300332841F8F46B500CE32BD /* UICollectionViewUITests.m */; };
+		307E1FCA1F90555000C7B274 /* DifferentSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E1FC61F90551C00C7B274 /* DifferentSectionViewController.m */; };
+		307E1FCB1F90555000C7B274 /* DifferSectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 307E1FC71F90551C00C7B274 /* DifferSectionFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		300332801F8F46B500CE32BD /* UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		300332841F8F46B500CE32BD /* UICollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewUITests.m; sourceTree = "<group>"; };
 		300332861F8F46B500CE32BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307E1FC41F90551C00C7B274 /* DifferentSectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifferentSectionViewController.h; sourceTree = "<group>"; };
+		307E1FC51F90551C00C7B274 /* DifferSectionFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifferSectionFlowLayout.h; sourceTree = "<group>"; };
+		307E1FC61F90551C00C7B274 /* DifferentSectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferentSectionViewController.m; sourceTree = "<group>"; };
+		307E1FC71F90551C00C7B274 /* DifferSectionFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferSectionFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				300332611F8F46B500CE32BD /* AppDelegate.m */,
 				300332631F8F46B500CE32BD /* ViewController.h */,
 				300332641F8F46B500CE32BD /* ViewController.m */,
+				307E1FC31F9054F700C7B274 /* DifferentSection */,
 				300332661F8F46B500CE32BD /* Main.storyboard */,
 				300332691F8F46B500CE32BD /* Assets.xcassets */,
 				3003326B1F8F46B500CE32BD /* LaunchScreen.storyboard */,
@@ -130,6 +137,17 @@
 				300332861F8F46B500CE32BD /* Info.plist */,
 			);
 			path = UICollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		307E1FC31F9054F700C7B274 /* DifferentSection */ = {
+			isa = PBXGroup;
+			children = (
+				307E1FC41F90551C00C7B274 /* DifferentSectionViewController.h */,
+				307E1FC61F90551C00C7B274 /* DifferentSectionViewController.m */,
+				307E1FC51F90551C00C7B274 /* DifferSectionFlowLayout.h */,
+				307E1FC71F90551C00C7B274 /* DifferSectionFlowLayout.m */,
+			);
+			path = DifferentSection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307E1FCA1F90555000C7B274 /* DifferentSectionViewController.m in Sources */,
+				307E1FCB1F90555000C7B274 /* DifferSectionFlowLayout.m in Sources */,
 				300332651F8F46B500CE32BD /* ViewController.m in Sources */,
 				300332701F8F46B500CE32BD /* main.m in Sources */,
 				300332621F8F46B500CE32BD /* AppDelegate.m in Sources */,

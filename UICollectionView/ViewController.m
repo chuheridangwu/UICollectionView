@@ -4,9 +4,13 @@
 //
 //  Created by dym on 2017/10/12.
 //  Copyright © 2017年 dym. All rights reserved.
-//
+
+
+//参考网址：https://onevcat.com/2012/06/introducing-collection-views/
 
 #import "ViewController.h"
+
+#import "DifferentSectionViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic,strong) UICollectionView *collectionView;
@@ -40,7 +44,17 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    
+    switch (indexPath.row) {
+        case 2:
+        {
+            DifferentSectionViewController *vc = [[DifferentSectionViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 
